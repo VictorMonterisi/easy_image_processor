@@ -13,7 +13,7 @@ A simple and efficient Python package for **image processing**, allowing you to 
 Install the package using pip:
 
 ```sh
-pip install image-processor
+pip install easy_image_processor
 ```
 
 Or, for local development:
@@ -27,7 +27,7 @@ pip install .
 ### **Convert an image to grayscale**
 
 ```python
-from image_processor.processor import to_grayscale
+from easy_image_processor import to_grayscale
 
 to_grayscale("input.jpg", "output_gray.jpg")
 ```
@@ -35,7 +35,7 @@ to_grayscale("input.jpg", "output_gray.jpg")
 ### **Resize an image**
 
 ```python
-from image_processor.processor import resize_image
+from easy_image_processor import resize_image
 
 resize_image("input.jpg", "output_resized.jpg", (200, 200))
 ```
