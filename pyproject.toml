@@ -16,4 +16,4 @@ dev = ["pytest", "black", "mypy"]
 line-length = 88
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+packages = ["easy_image_processor"]
